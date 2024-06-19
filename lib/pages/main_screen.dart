@@ -15,7 +15,7 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   int currentIndex = 0;
-  final screens = [Home(), WorkoutPage(), ChatPage(), ProfilePage()];
+  final screens = [Home(), WorkoutPage(), ChatPage(userProvider: UserProvider()), ProfilePage()];//////
 
   final GlobalKey<NavigatorState> _navigatorKey = GlobalKey<NavigatorState>();
 
