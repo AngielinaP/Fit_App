@@ -90,8 +90,8 @@ class _WorkoutPageState extends State<WorkoutPage> {
 
   void fetchData(String bodyPart, String limit) async {
     var headers = {
-      'X-RapidAPI-Key': '6ae9d2f9cfmsha7480add98ae68bp1ab1aajsn7ccbd4d54b61',
-      'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
+      //'X-RapidAPI-Key': '6ae9d2f9cfmsha7480add98ae68bp1ab1aajsn7ccbd4d54b61',
+      //'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com',
     };
 
     var uri = Uri.https(
